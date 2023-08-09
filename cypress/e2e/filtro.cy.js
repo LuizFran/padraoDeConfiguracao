@@ -6,7 +6,7 @@ cy.clearCookies()
     })
     it('Login com sucesso ', () => {
         // cy.clearCookies()
-        cy.visit('https://mapa52-frontend-dev.azurewebsites.net/account/fake-login')
+        cy.visit('https://mapa52-frontend')
         cy.get('#userId').type('C0659295')
         cy.get('.p-dropdown-trigger').click({force:true})
         cy.contains('Admin').click({force:true})
