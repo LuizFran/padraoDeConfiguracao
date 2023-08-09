@@ -1,4 +1,4 @@
-*Configurações Padrão de Automação, com Cypress*
+# Dicas de configurção de ambiente, com Cypress.
 
 Neste repositório, contém algumas dicas de configuração, para utilização do cypress.
 
